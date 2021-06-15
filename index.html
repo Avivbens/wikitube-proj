@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikitube</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+    <div class="all-container">
+
+
+        <header>
+            <h1 class="main-title">Wikitube</h1>
+            <input class="search-bar" type="text" placeholder="Search">
+        </header>
+
+        <main class="main-container">
+            <section class="videos-selector-container">
+            </section>
+
+            <section class="details-container">
+                <iframe class="iframe-box" width="420" height="315"
+                    src="https://www.youtube.com/embed/yJyClObyUOs?autoplay=0&mute=0">
+                </iframe>
+
+                <div class="main-description">
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+
+    <script src="js/services/utils.js"></script>
+    <script src="js/services/storage-service.js"></script>
+    <script src="js/services/ask-service.js"></script>
+    <script src="js/services/wiki-service.js"></script>
+    <script src="js/services/yt-service.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
